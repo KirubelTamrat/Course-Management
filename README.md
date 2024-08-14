@@ -359,8 +359,6 @@ class Staff(Person):
     
 
 
-
-
 class Student(Person):
     '''
         >>> C = Catalog()
@@ -413,6 +411,7 @@ class Student(Person):
         >>> s1.classCode
         'Sophomore'
     '''
+        
     def __init__(self, name, ssn, year):
         random.seed(1)
         #calls parent class to set name and ssn
