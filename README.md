@@ -20,6 +20,7 @@ class Course:
         >>> print(c1)
         CMPSC132(3): Programming in Python II
     '''
+
     def __init__(self, cid, cname, credits):
         #initializes the course name 
         self.cname = cname
