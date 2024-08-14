@@ -300,6 +300,7 @@ class Staff(Person):
         {1: CMPSC 132}
     '''
     
+    
     def __init__(self, name, ssn, supervisor=None):
         #calls constructer of parent class to set name and ssn
         super().__init__(name,ssn)
@@ -414,6 +415,7 @@ class Student(Person):
         'Sophomore'
     '''
         
+    
     def __init__(self, name, ssn, year):
         random.seed(1)
         #calls parent class to set name and ssn
@@ -596,6 +598,7 @@ class StudentAccount:
         >>> s1.account.balance
         7900.0
     '''
+    
     
     CREDIT_PRICE = 1000
     def __init__(self, student):
