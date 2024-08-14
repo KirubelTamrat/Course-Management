@@ -299,6 +299,7 @@ class Staff(Person):
         >>> st1.semesters
         {1: CMPSC 132}
     '''
+    
     def __init__(self, name, ssn, supervisor=None):
         #calls constructer of parent class to set name and ssn
         super().__init__(name,ssn)
